@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;family=Outfit:wght@100..900&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link href="assets/css/font-awesome-all.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/owl.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link href="assets/css/odometer.css" rel="stylesheet">
+    <link href="assets/css/elpath.css" rel="stylesheet">
+    <link href="assets/css/color.css" id="jssDefault" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/module-css/header.css" rel="stylesheet">
+    <link href="assets/css/module-css/banner.css" rel="stylesheet">
+    <link href="assets/css/module-css/clients.css" rel="stylesheet">
+    <link href="assets/css/module-css/about.css" rel="stylesheet">
+    <link href="assets/css/module-css/funfact.css" rel="stylesheet">
+    <link href="assets/css/module-css/chooseus.css" rel="stylesheet">
+    <link href="assets/css/module-css/category.css" rel="stylesheet">
+    <link href="assets/css/module-css/industries.css" rel="stylesheet">
+    <link href="assets/css/module-css/process.css" rel="stylesheet">
+    <link href="assets/css/module-css/team.css" rel="stylesheet">
+    <link href="assets/css/module-css/news.css" rel="stylesheet">
+    <link href="assets/css/module-css/subscribe.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/module-css/service.css">
+    <link href="assets/css/module-css/footer.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/css/module-css/faq.css" rel="stylesheet">
+    <link href="assets/css/module-css/testimonial.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/module-css/page-title.css">
+    <link href="assets/css/module-css/service-details.css" rel="stylesheet">
+
+</head>
+
+
+<!-- page wrapper -->
+
+<body>
+
+    <div class="boxed_wrapper">
+
+        <!-- preloader -->
+        <div class="loader-wrap">
+            <div class="preloader">
+                <div class="preloader-close"><i class="icon-27"></i></div>
+                <div id="handle-preloader" class="handle-preloader">
+                    <div class="animation-preloader">
+                        <div class="spinner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- preloader end -->
+        <!-- main header -->
+        <header class="main-header header-style-two">
+            <!-- header-lower -->
+            <div class="header-lower">
+                <div class="auto-container">
+                    <div class="outer-box">
+                        <figure class="logo-box pl_15">
+                            <a href="index">
+                                <img src="assets/images/logo/logo.png" alt
+                                    style="width:150px; height:70px; object-fit:contain;">
+                            </a>
+                        </figure>
+                        <div class="menu-area">
+                            <!--Mobile Navigation Toggler-->
+                            <div class="mobile-nav-toggler">
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                            </div>
+                            <nav class="main-menu navbar-expand-md navbar-light clearfix">
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                    <ul class="navigation clearfix">
+                                        <li><a href="index">Home</a></li>
+                                        <li><a href="about">About Us</a></li>
+                                        <li class="dropdown"><a href="#">Services</a>
+                                            <ul>
+                                                <li><a href="talent-sourcing">Talent Sourcing</a></li>
+                                                <li><a href="vetting-interviews">Vetting + Interviews</a></li>
+                                                <li><a href="hr-support">HR Support</a></li>
+                                                <li><a href="performance-monitoring">Performance Monitoring</a></li>
+                                                <li><a href="replacement-guarantee">Replacement Guarantee</a></li>
+                                                <li><a href="timezone-coordination">Timezone Coordination</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="join-the-network">Join the Network</a></li>
+                                        <li class="dropdown"><a href="#">Contact Us</a>
+                                            <ul>
+                                                <li><a href="#">Join as a Client</a></li>
+                                                <li><a href="#">Join as a VA</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="menu-right-content">
+                            <div class="btn-box"><a href="get-started" class="theme-btn btn-one">Get Started</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--sticky Header-->
+            <div class="sticky-header">
+                <div class="auto-container">
+                    <div class="outer-box">
+                        <figure class="logo-box pl_15">
+                            <a href="index">
+                                <img src="assets/images/logo/logo.png" alt
+                                    style="width:150px; height:60px; object-fit:contain;">
+                            </a>
+                        </figure>
+                        <div class="menu-area">
+                            <nav class="main-menu clearfix">
+                            </nav>
+                        </div>
+                        <div class="menu-right-content">
+                            <div class="btn-box"><a href="get-started" class="theme-btn btn-one">Get Started</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main-header end -->
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index"><img src="assets/images/logo/logo.png" alt title></a></div>
+                <div class="menu-outer">
+                </div>
+                <div class="contact-info">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <!-- <li>Chicago 12, Melborne City, USA</li>
+                            <li><a href="tel:+8801682648101">+88
+                                    01682648101</a></li> -->
+                        <li><a href="mailto:hello@naks-network.com">hello@naks-network.com</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- End Mobile Menu -->
+
+        <!-- banner-section -->
+        <section class="page-title centred pt_70 pb_120"
+            style="background-image: url(assets/images/background/new-one2.png);">
+            <div class="auto-container">
+                <div class="content-box">
+                    <h1>About Us</h1>
+                    <ul class="bread-crumb clearfix">
+                        <li><a href="index">Home</a></li>
+                        <li>-</li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- banner-section end -->
+
+
+        <section class="service-details pt_110 pb_120">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
+                        <div class="service-sidebar mr_40">
+                            <div class="category-widget mb_40">
+                                <ul class="category-list clearfix">
+                                    <li>
+                                        <a href="talent-sourcing">
+                                            Talent Sourcing <i class="icon-42"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="vetting-interviews">
+                                            Vetting & Interviews <i class="icon-42"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="hr-support">
+                                            HR Support <i class="icon-42"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="performance-monitoring">
+                                            Performance Monitoring <i class="icon-42"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="replacement-guarantee">
+                                            Replacement Guarantee <i class="icon-42"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="timezone-coordination">
+                                            Timezone Coordination <i class="icon-42"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-12 col-sm-12 content-side">
+                        <div class="service-details-content">
+                            <div class="sec-title mb_70">
+                                <span class="sub-title mb_10">Workforce System</span>
+                                <h2>The Executive Search Process for Optimal Results</h2>
+                                <p class="mt_20">The executive search process is meticulously designed to identify and attract top-tier leadership talent that aligns with an organization’s strategic goals.</p>
+                            </div>
+                            <figure class="image-box mb_30"><img src="assets/images/service/service-1.jpg" alt=""></figure>
+                            <div class="text-box mb_25">
+                                <p class="mb_25">It begins with a thorough understanding of the company’s needs, culture, and long-term vision, ensuring that the search is precisely targeted.</p>
+                                <p>Leveraging an extensive network and advanced assessment tools, executive search firms meticulously evaluate candidates’ qualifications, experience, and leadership capabilities. The process includes rigorous interviews, reference checks, and often psychometric testing to ensure a comprehensive evaluation.</p>
+                            </div>
+                            <div class="text-box mb_25">
+                                <h2>Finding You The Leaders Of Tomorrow</h2>
+                                <p>Trouble that are bound to ensue; and equaly blame belongs those who fail in their duty through weakness of will which is the same as saying through shrinking from toil and pain.</p>
+                            </div>
+
+                            <div class="text-box">
+                                <p class="mb_25">Lorem ipsum dolor sit amet consectetur. Mi luctus at sapien viverra enim pharetra augue. Aliquam tellus amet est amet in non sem adipiscing urna. Neque etiam eu pellentesque velit ultricies dictumst mauris tortor hac.</p>
+                                <p>Elit morbi maecenas sit viverra nibh elementum bibendum arcu a. Suscipit magna vitae nulla aenean suspendisse scelerisque montes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- main-footer -->
+        <footer class="main-footer">
+            <div class="widget-section p_relative pt_80 pb_100">
+                <div class="auto-container">
+                    <div class="row clearfix">
+
+                        <!-- Brand Column -->
+                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget logo-widget mr_30">
+                                <figure class="footer-logo mb_20">
+                                    <a href="">
+                                        <img src="assets/images/logo/logo.png" alt
+                                            style="width:130px; height:90px; object-fit:contain;">
+                                    </a>
+                                </figure>
+                                <p>
+                                    Global talent sourcing made simple — we help teams hire
+                                    world-class professionals across every industry.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Quick Links -->
+                        <div class="col-lg-2 col-md-4 col-sm-12 footer-column">
+                            <div class="footer-widget links-widget">
+                                <div class="widget-title">
+                                    <h4>Quick Links</h4>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="links-list clearfix">
+                                        <li><a href="about">About Us</a></li>
+                                        <li><a href="join-the-network">Join the Network</a></li>
+                                        <li><a href="get-started">Get Started</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Our Services -->
+                        <div class="col-lg-3 col-md-4 col-sm-12 footer-column">
+                            <div class="footer-widget links-widget">
+                                <div class="widget-title">
+                                    <h4>Our Services</h4>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="links-list clearfix">
+                                        <li><a href="talent-sourcing">Talent Sourcing</a></li>
+                                        <li><a href="vetting-interviews">Vetting & Interviews</a></li>
+                                        <li><a href="hr-support">HR Support</a></li>
+                                        <li><a href="performance-monitoring">Performance Monitoring</a></li>
+                                        <li><a href="replacement-guarantee">Replacement Guarantee</a></li>
+                                        <li><a href="timezone-coordination">Timezone Coordination</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contact & Info -->
+                        <div class="col-lg-3 col-md-4 col-sm-12 footer-column">
+                            <div class="footer-widget links-widget">
+                                <div class="widget-title">
+                                    <h4>Contact & Info</h4>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="links-list clearfix">
+                                        <li><a href="mailto:hello@naks-network.com">hello@naks-network.com</a></li>
+                                        <li><a href="https://naks-network.com" target="_blank">naks-network.com</a></li>
+                                        <li><span>Remote-First Company</span></li>
+                                        <li><span>Mon – Fri · 9am–6pm</span></li>
+                                        <li><span>Global Talent. Zero Borders.</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="auto-container">
+                    <div class="bottom-inner">
+                        <div class="copyright">
+                            <p>© 2026 Naks Network. All rights reserved.</p>
+                        </div>
+                        <ul class="social-links">
+                            <li>
+                                <h5>Follow Us On:</h5>
+                            </li>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <!-- <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li> -->
+                            <li><a href="mailto:hello@naks-network.com"><i class="fas fa-envelope"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- main-footer end -->
+
+
+
+        <!--Scroll to top-->
+        <div class="scroll-to-top">
+            <svg class="scroll-top-inner" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+            </svg>
+        </div>
+
+    </div>
+
+
+    <!-- jequery plugins -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/scrolltop.min.js"></script>
+    <script src="assets/js/gsap.js"></script>
+    <script src="assets/js/ScrollTrigger.js"></script>
+    <script src="assets/js/SplitText.js"></script>
+    <script src="assets/js/language.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/lenis.min.js"></script>
+    <script src="assets/js/odometer.js"></script>
+
+    <!-- main-js -->
+    <script src="assets/js/script.js"></script>
+
+</body><!-- End of .page_wrapper -->
+
+
+</html>

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;family=Outfit:wght@100..900&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link href="assets/css/font-awesome-all.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/owl.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link href="assets/css/odometer.css" rel="stylesheet">
+    <link href="assets/css/elpath.css" rel="stylesheet">
+    <link href="assets/css/color.css" id="jssDefault" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/module-css/header.css" rel="stylesheet">
+    <link href="assets/css/module-css/page-title.css" rel="stylesheet">
+    <link href="assets/css/module-css/contact.css" rel="stylesheet">
+    <link href="assets/css/module-css/subscribe.css" rel="stylesheet">
+    <link href="assets/css/module-css/footer.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+</head>
+
+
+<!-- page wrapper -->
+
+<body>
+
+    <div class="boxed_wrapper ltr">
+
+
+        <!-- preloader -->
+        <div class="loader-wrap">
+            <div class="preloader">
+                <div class="preloader-close"><i class="icon-27"></i></div>
+                <div id="handle-preloader" class="handle-preloader">
+                    <div class="animation-preloader">
+                        <div class="spinner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- preloader end -->
+
+        <!-- main header -->
+        <header class="main-header header-style-two">
+            <!-- header-lower -->
+            <div class="header-lower">
+                <div class="auto-container">
+                    <div class="outer-box">
+                        <figure class="logo-box pl_15">
+                            <a href="index">
+                                <img src="assets/images/logo/logo.png" alt
+                                    style="width:150px; height:70px; object-fit:contain;">
+                            </a>
+                        </figure>
+                        <div class="menu-area">
+                            <!--Mobile Navigation Toggler-->
+                            <div class="mobile-nav-toggler">
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                            </div>
+                            <nav class="main-menu navbar-expand-md navbar-light clearfix">
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                    <ul class="navigation clearfix">
+                                        <li><a href="index">Home</a></li>
+                                        <li><a href="about">About Us</a></li>
+                                        <li class="dropdown"><a href="#">Services</a>
+                                            <ul>
+                                                <li><a href="talent-sourcing">Talent Sourcing</a></li>
+                                                <li><a href="vetting-interviews">Vetting + Interviews</a></li>
+                                                <li><a href="hr-support">HR Support</a></li>
+                                                <li><a href="performance-monitoring">Performance Monitoring</a></li>
+                                                <li><a href="replacement-guarantee">Replacement Guarantee</a></li>
+                                                <li><a href="timezone-coordination">Timezone Coordination</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="join-the-network">Join the Network</a></li>
+                                        <li class="dropdown"><a href="#">Contact Us</a>
+                                            <ul>
+                                                <li><a href="#">Join as a Client</a></li>
+                                                <li><a href="#">Join as a VA</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="menu-right-content">
+                            <div class="btn-box"><a href="get-started" class="theme-btn btn-one">Get Started</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--sticky Header-->
+            <div class="sticky-header">
+                <div class="auto-container">
+                    <div class="outer-box">
+                        <figure class="logo-box pl_15">
+                            <a href="index">
+                                <img src="assets/images/logo/logo.png" alt
+                                    style="width:150px; height:60px; object-fit:contain;">
+                            </a>
+                        </figure>
+                        <div class="menu-area">
+                            <nav class="main-menu clearfix">
+                            </nav>
+                        </div>
+                        <div class="menu-right-content">
+                            <div class="btn-box"><a href="get-started" class="theme-btn btn-one">Get Started</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main-header end -->
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index"><img src="assets/images/logo/logo.png" alt title></a></div>
+                <div class="menu-outer">
+                </div>
+                <div class="contact-info">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <!-- <li>Chicago 12, Melborne City, USA</li>
+                            <li><a href="tel:+8801682648101">+88
+                                    01682648101</a></li> -->
+                        <li><a href="mailto:hello@naks-network.com">hello@naks-network.com</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- End Mobile Menu -->
+
+        <!-- page-title -->
+        <section class="page-title centred pt_110 pb_110"
+            style="background-image: url(assets/images/background/new-one2.png);">
+            <div class="auto-container">
+                <div class="content-box">
+                    <h1>Contact us</h1>
+                    <ul class="bread-crumb clearfix">
+                        <li><a href="index">Home</a></li>
+                        <li>-</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- page-title end -->
+
+
+        <!-- contact-section -->
+        <section class="contact-section pt_110 pb_30">
+            <div class="auto-container">
+                <div class="inner-container">
+                    <div class="row clearfix">
+                        <div class="col-lg-4 col-md-12 col-sm-12 info-column">
+                            <div class="info-box">
+                                <h3>Contact Information</h3>
+                                <div class="single-item">
+                                    <div class="icon-box"><img src="assets/images/icons/icon-27.png" alt=""></div>
+                                    <h4>Corporate Office</h4>
+                                    <p>0233 Brisbane Cir. Shiloh, Australia 81063</p>
+                                </div>
+                                <div class="single-item">
+                                    <div class="icon-box"><img src="assets/images/icons/icon-27.png" alt=""></div>
+                                    <h4>Main Warehouse</h4>
+                                    <p>10445 Brisbane Cir. Shiloh, Australia 81063</p>
+                                </div>
+                                <div class="single-item">
+                                    <div class="icon-box"><img src="assets/images/icons/icon-28.png" alt=""></div>
+                                    <h4>Email Address</h4>
+                                    <p><a href="mailto:support@example.com">support@example.com</a><br /><a
+                                            href="mailto:contact@example.com">contact@example.com</a></p>
+                                </div>
+                                <div class="single-item">
+                                    <div class="icon-box"><img src="assets/images/icons/icon-29.png" alt=""></div>
+                                    <h4>Phone Number</h4>
+                                    <p><a href="tel:2085440141">+(208) 544 -0141</a><br /><a
+                                            href="tel:2085440142">+(208) 544 -0142</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-12 col-sm-12 content-column">
+                            <div class="form-inner">
+                                <form method="post" action="#" id="contact-form">
+                                    <div class="row clearfix">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                            <label>Name <span>*</span></label>
+                                            <input type="text" name="username" placeholder="" required>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                            <label>Phone <span>*</span></label>
+                                            <input type="text" name="phone" placeholder="" required>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                            <label>Email Address <span>*</span></label>
+                                            <input type="email" name="email" placeholder="" required>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                            <label>Subject <span>*</span></label>
+                                            <input type="text" name="subject" placeholder="" required>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                            <label>Write Message <span>*</span></label>
+                                            <textarea name="message" placeholder=""></textarea>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
+                                            <button type="submit" class="theme-btn btn-one" name="submit-form">Send
+                                                Message</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact-section end -->
+
+
+        <!-- google-map -->
+        <section class="google-map pb_80">
+            <div class="auto-container">
+                <div class="inner-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55945.16225505631!2d-73.90847969206546!3d40.66490264739892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1601263396347!5m2!1sen!2sbd"
+                        width="100%" height="500" frameborder="0" style="border:0; width: 100%" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- google-map end -->
+
+        <footer class="main-footer">
+            <div class="widget-section p_relative pt_80 pb_100">
+                <div class="auto-container">
+                    <div class="row clearfix">
+
+                        <!-- Brand Column -->
+                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget logo-widget mr_30">
+                                <figure class="footer-logo mb_20">
+                                    <a href="">
+                                        <img src="assets/images/logo/logo.png" alt
+                                            style="width:130px; height:90px; object-fit:contain;">
+                                    </a>
+                                </figure>
+                                <p>
+                                    Global talent sourcing made simple — we help teams hire
+                                    world-class professionals across every industry.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Quick Links -->
+                        <div class="col-lg-2 col-md-4 col-sm-12 footer-column">
+                            <div class="footer-widget links-widget">
+                                <div class="widget-title">
+                                    <h4>Quick Links</h4>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="links-list clearfix">
+                                        <li><a href="about">About Us</a></li>
+                                        <li><a href="join-the-network">Join the Network</a></li>
+                                        <li><a href="get-started">Get Started</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Our Services -->
+                        <div class="col-lg-3 col-md-4 col-sm-12 footer-column">
+                            <div class="footer-widget links-widget">
+                                <div class="widget-title">
+                                    <h4>Our Services</h4>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="links-list clearfix">
+                                        <li><a href="talent-sourcing">Talent Sourcing</a></li>
+                                        <li><a href="vetting-interviews">Vetting & Interviews</a></li>
+                                        <li><a href="hr-support">HR Support</a></li>
+                                        <li><a href="performance-monitoring">Performance Monitoring</a></li>
+                                        <li><a href="replacement-guarantee">Replacement Guarantee</a></li>
+                                        <li><a href="timezone-coordination">Timezone Coordination</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contact & Info -->
+                        <div class="col-lg-3 col-md-4 col-sm-12 footer-column">
+                            <div class="footer-widget links-widget">
+                                <div class="widget-title">
+                                    <h4>Contact & Info</h4>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="links-list clearfix">
+                                        <li><a href="mailto:hello@naks-network.com">hello@naks-network.com</a></li>
+                                        <li><a href="https://naks-network.com" target="_blank">naks-network.com</a></li>
+                                        <li><span>Remote-First Company</span></li>
+                                        <li><span>Mon – Fri · 9am–6pm</span></li>
+                                        <li><span>Global Talent. Zero Borders.</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="auto-container">
+                    <div class="bottom-inner">
+                        <div class="copyright">
+                            <p>© 2026 Naks Network. All rights reserved.</p>
+                        </div>
+                        <ul class="social-links">
+                            <li>
+                                <h5>Follow Us On:</h5>
+                            </li>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <!-- <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li> -->
+                            <li><a href="mailto:hello@naks-network.com"><i class="fas fa-envelope"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!--Scroll to top-->
+        <div class="scroll-to-top">
+            <svg class="scroll-top-inner" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+            </svg>
+        </div>
+
+    </div>
+
+
+    <!-- jequery plugins -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/scrolltop.min.js"></script>
+    <script src="assets/js/gsap.js"></script>
+    <script src="assets/js/ScrollTrigger.js"></script>
+    <script src="assets/js/SplitText.js"></script>
+    <script src="assets/js/language.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/lenis.min.js"></script>
+    <script src="assets/js/odometer.js"></script>
+    <script src="assets/js/jquery.lettering.min.js"></script>
+    <script src="assets/js/jquery.circleType.js"></script>
+
+    <!-- main-js -->
+    <script src="assets/js/script.js"></script>
+
+</body><!-- End of .page_wrapper -->
+
+
+</html>
