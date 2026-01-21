@@ -1126,6 +1126,7 @@
    height: 70px;
    line-height: 74px;
    background: #fff;
+   display: none;
    text-align: center;
    border-radius: 50%;
    cursor: pointer;
