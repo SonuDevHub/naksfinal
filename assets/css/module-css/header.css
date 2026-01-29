@@ -114,8 +114,8 @@
   text-align: center;
   font-size: 18px;
   line-height: 26px;
-  padding-top: 41px;
-  padding-bottom: 41px;
+  padding-top: 31px;
+  padding-bottom: 31px;
   font-weight: 500;
   font-family: var(--title-font);
   opacity: 1;
@@ -139,7 +139,7 @@
   position: absolute;
   content: "\f107";
   font-family: 'Font Awesome 5 Pro';
-  top: 41px;
+  top: 31px;
   right: 0px;
   font-weight: 500;
   transition: all 500ms ease;
