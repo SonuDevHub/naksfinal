@@ -2,7 +2,7 @@
 /** banner-section **/
 
 .banner-section{
-  padding: 250px 0px;
+  padding: 230px 0px;
 }
 
 .banner-section .pattern-layer{
@@ -715,7 +715,7 @@
   }
 
   .banner-section{
-    padding: 200px 0px;
+    padding: 100px 0px;
   }
 
   .banner-style-two .outer-container{
@@ -790,9 +790,6 @@
     margin-bottom: 15px;
   }
 
-  .rtl .banner-section .content-box .btn-box .theme-btn.btn-one{
-    margin-left: 0px;
-  }
 
   .banner-style-two .outer-container{
     padding-left: 15px;
